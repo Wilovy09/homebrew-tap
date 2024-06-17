@@ -1,4 +1,4 @@
-## Emiliano Maldonado homebrew tap packages
+## Wilovy09 homebrew tap packages
 
 This repository contains formulas for installing axo's projects using [Homebrew](https://brew.sh) on Mac.
 ## Homebrew Packages
@@ -11,7 +11,7 @@ adn - 0.1.5
 > [!NOTE]
 > You can check the proyect [here](https://github.com/Wilovy09/ADN)
 ```bash
-brew install SergioRibera/tap/adn
+brew install Wilovy09/homebrew-tap/adn
 adn
 adn
 ```
