@@ -27,8 +27,8 @@ jobs:
       - name: Deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER: "SergioRibera"
-          GITHUB_EMAIL: "56278796+SergioRibera@users.noreply.github.com"
+          GITHUB_USER: "Wilovy09"
+          GITHUB_EMAIL: "68057133+Wilovy09@users.noreply.github.com"
         run: |
           git config --global user.name "${GITHUB_USER}"
           git config --global user.email "${GITHUB_EMAIL}"
