@@ -4,15 +4,11 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 ## Homebrew Packages
 
 ---
-### adn
-adn
-adn - 0.1.5
+### adn - 0.1.5
 🧬 The easy way to install LSP in Helix
 > [!NOTE]
-> You can check the proyect [here](https://github.com/Wilovy09/ADN)
+> You can check the project [here](https://github.com/Wilovy09/ADN)
 ```bash
 brew install Wilovy09/homebrew-tap/adn
-adn
-adn
 ```
 
