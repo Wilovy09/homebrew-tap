@@ -1,21 +1,21 @@
 class Adn < Formula
   desc "🧬 The easy way to install LSP in Helix"
   homepage "https://github.com/Wilovy09/ADN"
-  version "0.1.8"
+  version "0.1.9"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.8/adn-aarch64-apple-darwin.tar.xz"
-      sha256 "78965b7105facd6e589964ee9703765296faadb389a0246c56e024b7b88ce109"
+      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-aarch64-apple-darwin.tar.xz"
+      sha256 "01b0cd5f671688874bfb1be778ae5cef1a3363f9b7d391d0b0acee72fbf510d5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.8/adn-x86_64-apple-darwin.tar.xz"
-      sha256 "f74dfd93925818799a16be785fce8f8e6c911d5d97470543f18fa3e6e30e792d"
+      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-x86_64-apple-darwin.tar.xz"
+      sha256 "a3deaf70b18d2e544df66e92a1deca5626defb538d03f4a02f03dca5458f588a"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.8/adn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5431746900cc99cbaee3546fa9b9a9905442f3d45891555010cce3ef6a580892"
+      url "https://github.com/Wilovy09/ADN/releases/download/v0.1.9/adn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "cd16fea223e73819299d055ef51cadd12f41605687f778a15b3b3120afbf519f"
     end
   end
   license "MIT"
