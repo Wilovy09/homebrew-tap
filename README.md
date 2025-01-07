@@ -12,3 +12,12 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 brew install Wilovy09/homebrew-tap/adn
 ```
 
+---
+### grow" if OS.mac? && Hardware::CPU.arm? - 1.0.0
+🌱 Write sedders in RON
+> [!NOTE]
+> You can check the project [here](https://github.com/Wilovy09/Grow-rs)
+```bash
+brew install Wilovy09/homebrew-tap/grow" if OS.mac? && Hardware::CPU.arm?
+```
+
