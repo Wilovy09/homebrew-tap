@@ -13,7 +13,7 @@ brew install Wilovy09/homebrew-tap/adn
 ```
 
 ---
-### grow" if OS.mac? && Hardware::CPU.arm? - 1.0.0
+### grow" if OS.mac? && Hardware::CPU.arm? - 1.1.0
 🌱 Write sedders in RON
 > [!NOTE]
 > You can check the project [here](https://github.com/Wilovy09/Grow-rs)
