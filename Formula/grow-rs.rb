@@ -1,20 +1,20 @@
 class GrowRs < Formula
   desc "🌱 Write sedders in RON"
   homepage "https://github.com/Wilovy09/Grow-rs"
-  version "2.0.0"
+  version "2.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.0.0/grow-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "e4ef83e99afc24dd1690062c89479c5a33965e82fcfcf45b2c5bc7363f45fbbb"
+      url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.1.1/grow-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "39cf7a2b6d48aa22188692518e4a33131cfa717d3fa0c7f2098312d11553bcd3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.0.0/grow-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "51e0683df6c88cd832b852d4344ba57f57e0b9a8ffec33abf7131fb39830683a"
+      url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.1.1/grow-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "19202a7cb879cfe8cc5a7314b38e0c04998f32a43d622a2b5acb765310241565"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.0.0/grow-rs-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "8c444fff9b7889adc80804c9fb449d3b10d31ddd298b347e8db24ca62ff549a9"
+    url "https://github.com/Wilovy09/Grow-rs/releases/download/v2.1.1/grow-rs-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "87ad302c38f565de8e662f3dc7fb608d4df912feb1f651170169b24022d5387b"
   end
   license "MIT"
 
